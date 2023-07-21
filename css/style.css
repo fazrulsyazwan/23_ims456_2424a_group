@@ -1,0 +1,179 @@
+* {
+  margin: 0;   
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+/*navigation*/
+
+.header{
+    background-color: #4f2101;
+
+}
+.header .row
+    {
+    margin-top: 70px;
+    }
+
+a
+    {
+    text-decoration: none;
+    color: #ffffff;
+    align-items: left;
+    margin-right: 20px;
+    font-size: 15px;
+    border-radius: 20px;
+    }
+
+
+/*navigation*/
+
+.navbar
+    {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    }
+nav
+    {
+    flex: 1;
+    text-align: right;
+    }
+
+nav ul
+    {
+    display: inline-block;
+    list-style-type: none;
+    }
+nav ul li
+    {
+    display: inline-block;
+    margin-right: 20px;
+    }
+
+/*body-content*/
+
+
+.header-img
+    {
+    position: relative;
+    text-align: left;
+    color: white;
+    overflow-x: hidden;
+
+    }
+
+.header-text
+    {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    }
+
+
+.f-product
+    {
+        flex-basis: 25%;
+        padding: 10px;
+        min-width: 200px;
+        margin-bottom: 50px;
+        transition: transform 1.0s;
+        
+    }
+
+.h1-header 
+    {
+    margin-left: 25%;
+    font-size: 80px;
+    }
+
+.p-header ,.exp-product
+    {
+    margin-left: 25%;
+    }
+
+.container
+    {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+
+.small-container
+    {
+    align-items: center;
+    margin-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    }
+
+.row
+    {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+
+
+.product
+    {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 1.0s;
+    }
+
+.product img
+    {
+    width: 100%
+    }
+
+h4
+    {
+    color: #b83023;
+    font-weight: normal;
+    }
+
+h2  
+    {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+.bg
+    {
+    position: relative;
+    text-align: center;
+    color: white; 
+    }
+
+.contact-header
+    {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+.contact
+    {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+/*footer*/
+
+
+footer
+    {
+        text-align: center;
+    }
